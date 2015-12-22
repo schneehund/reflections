@@ -1,0 +1,23 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Mit dem diff-Werkzeug konnte ich mich auf die Unterschiede konzentrieren anstatt erstmal suchen zu müssen was sich überhaupt unterscheidet.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Mit VC kann man zu einem späteren Zeitpunkt die Veränderungen genau nachvollziehen und damit den gesamten Entstehungsprozess im Auge behalten. Mit einer einzelnen Datei habe ich nur den aktuellen Stand vor mir und nicht die Entwicklung des Projekts bis zum jetzigen stand.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Wenn man den Zeitpunkt wählt kann man die Änderungen sinnvoll zusammenfassen, der Nachteil dabei ist das man vergessen kann ein Commit zu erstellen und damit die Commits zu groß werden.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+In einer Entwicklerorientierten VC sollte man die Commits nach Funktionalität zusammenfassen, und solch eine Funktionalität kann mehrere Dateien betreffen. Daher sollte man die Änderungen in mehreren Dateien zusammenfassen können.
+
+How can you use the commands git log and git diff to view the history of files?
+
+mit dem Kommando git log bekomme ich eine chronologische Auflistung aller Commits. Die Option --stat ist hier nützlich denn sie reichert die Ausabe sinnvoll an. Mit "git diff" kann ich mehrere Commits im Detail vergleichen.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Um Programme und Code auf Github zu veröffentlichen. 

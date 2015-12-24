@@ -6,7 +6,7 @@ When would you want to use a remote repository rather than keeping all your work
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Wenn mehrere Personen an einer Branch arbeiten kann eine automatische Synchronisation Chaos stiften.
-Nur mit einer manuellen Steuerung kann ich sichergehen nur das zu veröffentlichen die dazu bestimmt sind.
+Nur mit einer manuellen Steuerung kann ich sichergehen nur das zu veröffentlichen das dazu bestimmt sind.
 
 ============================================================================================
 
@@ -14,3 +14,5 @@ Describe the differences between forks, clones, and branches. When would you use
 
 Fork ist effektiv eine Teilmenge vom Clone. daher sollte jeder Fork ein Clone sein.
 Branches sind ein Level tiefer angesiedelt. Sie sind quasi ein Zeitpfad durch verschiedene Commits.
+
+===========================================================================================

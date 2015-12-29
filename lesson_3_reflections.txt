@@ -27,3 +27,5 @@ When would you want to make changes in a separate branch rather than directly in
 
 Ich persönlich würde jede größere Änderung in eine seperate Branch auslagern damit in der Master-Branch immer funktionierender Programmcode steht.
 Der Nachteil dabei ist jedoch das man jedesmal wenn die Branches wieder zusammengeführt werden sollen, merge bemüht werden muss.
+
+==========================================================================================

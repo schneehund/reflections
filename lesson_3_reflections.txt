@@ -16,3 +16,14 @@ Fork ist effektiv eine Teilmenge vom Clone. daher sollte jeder Fork ein Clone se
 Branches sind ein Level tiefer angesiedelt. Sie sind quasi ein Zeitpfad durch verschiedene Commits.
 
 ===========================================================================================
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+1. wenn man längere Zeit keinen Zugriff auf das Internet hatt, kann man seine Änderungen schnell mit dem Hauptzweig vergleichen
+
+===========================================================================================
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Ich persönlich würde jede größere Änderung in eine seperate Branch auslagern damit in der Master-Branch immer funktionierender Programmcode steht.
+Der Nachteil dabei ist jedoch das man jedesmal wenn die Branches wieder zusammengeführt werden sollen, merge bemüht werden muss.
